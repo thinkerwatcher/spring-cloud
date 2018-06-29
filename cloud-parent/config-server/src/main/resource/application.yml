@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/thinkerwatcher/cloud-config.git
+          searchPaths: '{application}'
+          label: master
+          basedir: D:/git-repo/temp
+management:
+  security:
+    enabled: false

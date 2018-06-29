@@ -1,0 +1,8 @@
+server:
+  port: 8300
+spring:
+  application:
+    name: user-server
+  cloud:
+    config:
+      uri: http://config.server:8888/
