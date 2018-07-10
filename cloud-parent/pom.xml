@@ -40,5 +40,6 @@
     <module>wechat-server</module>
     <module>zipkin-server</module>
     <module>user-server</module>
+    <module>oauth-server</module>
   </modules>
 </project>
