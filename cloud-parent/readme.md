@@ -1,1 +1,9 @@
-
+config-server                 配置中心
+gateway-server                网关
+oauth-server                  授权服务
+regist-server                 注册中心
+user-server                   用户服务
+wechat-server                 微信服务
+zipkin-server                 链路监控服务
+commons                       通用包
+third-dependence              第三方依赖服务
